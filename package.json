@@ -1,0 +1,16 @@
+{
+  "name": "comp3612-assignment3",
+  "version": "1.0.0",
+  "description": "- **Get all circuits**: [http://localhost:3000/api/circuits](http://localhost:3000/api/circuits)\r - **Get a specific circuit by ID**: [http://localhost:3000/api/circuits/1](http://localhost:3000/api/circuits/1)\r - **Get all constructors**: [http://localhost:3000/api/constructors](http://localhost:3000/api/constructors)\r - **Get a specific constructor by reference**: [http://localhost:3000/api/constructors/mclaren](http://localhost:3000/api/constructors/mclaren)\r - **Get race results for a specific constructor and year**: [http://localhost:3000/api/constructorResults/mclaren/2023](http://localhost:3000/api/constructorResults/mclaren/2023)\r - **Get all drivers**: [http://localhost:3000/api/drivers](http://localhost:3000/api/drivers)\r - **Get a specific driver by reference**: [http://localhost:3000/api/drivers/piastre](http://localhost:3000/api/drivers/piastre)\r - **Get race results for a specific driver and year**: [http://localhost:3000/api/driverResults/piastre/2023](http://localhost:3000/api/driverResults/piastre/2023)\r - **Get all races for a specified season**: [http://localhost:3000/api/races/season/2023](http://localhost:3000/api/races/season/2023)\r - **Get a specific race by ID**: [http://localhost:3000/api/races/id/1100](http://localhost:3000/api/races/id/1100)\r - **Get all results for a specific race**: [http://localhost:3000/api/results/race/1100](http://localhost:3000/api/results/race/1100)\r - **Get all results for all races in a season**: [http://localhost:3000/api/results/season/2023](http://localhost:3000/api/results/season/2023)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
