@@ -153,6 +153,10 @@ app.get('/api/constructorResults/:constructor/:year', (req, res) => {
   }
 });
 
+app.use((req, res) => {
+  res.status(404).json({ error: 'Endpoint not found. Please check the URL and try again.' });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
