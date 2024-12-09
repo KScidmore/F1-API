@@ -1,6 +1,6 @@
 # COMP3612 Assignment 3, F1 API
 
-This project is a RESTful API built with Node.js and Express.js that serves data about F1 circuits, constructors, drivers, and race results. The data is stored in JSON files and loaded dynamically to power the endpoints.
+This project is an API built with Node.js and Express.js that serves data about F1 circuits, constructors, drivers, and race results. The data is stored in JSON files and loaded dynamically to power the endpoints.
 
 ## Features
 
@@ -40,7 +40,7 @@ The project uses the following JSON files stored in the `data` directory:
 ## Technologies Used
 
 - **Backend**: Node.js, Express.js
-- **API**: RESTful API with custom endpoints
+- **API**: API with custom endpoints
 - **Hosting**: Glitch
 - **Tools**: Git for version control
 - **Other**: JavaScript (ES6+), JSON for data interchange
@@ -53,7 +53,7 @@ The project uses the following JSON files stored in the `data` directory:
 - **Get a specific constructor by reference (case-insensitive)**: [https://formula1-api.glitch.me/api/coNSTruCTors/mclaren](https://formula1-api.glitch.me/api/coNSTruCTors/mclaren)
 - **Get a constructor with invalid reference**: [https://formula1-api.glitch.me/api/constructors/javascript](https://formula1-api.glitch.me/api/constructors/javascript)
 - **Get race results for a specific constructor and year**: [https://formula1-api.glitch.me/api/constructorResults/mclaren/2023](https://formula1-api.glitch.me/api/constructorResults/mclaren/2023)
-- **Get race results for MERCEDES in 2020 (case-insensitive)**: [https://formula1-api.glitch.me/api/constructorResults/MERCEDES/2020](https://formula1-api.glitch.me/api/constructorResults/MERCEDES/2020)
+- **Get race results for Mercedes in 2020 (case-insensitive)**: [https://formula1-api.glitch.me/api/constructorResults/MERCEDES/2020](https://formula1-api.glitch.me/api/constructorResults/MERCEDES/2020)
 - **Get race results for McLaren in invalid year**: [https://formula1-api.glitch.me/api/constructorResults/mclaren/2040](https://formula1-api.glitch.me/api/constructorResults/mclaren/2040)
 - **Get race results for invalid constructor and valid year**: [https://formula1-api.glitch.me/api/constructorResults/comp3612/2023](https://formula1-api.glitch.me/api/constructorResults/comp3612/2023)
 - **Get all drivers**: [https://formula1-api.glitch.me/api/drivers](https://formula1-api.glitch.me/api/drivers)
