@@ -1,6 +1,6 @@
-# COMP3612 Assignment 3, F1 API
+# F1 API
 
-This project is an API built with Node.js and Express.js that serves data about F1 circuits, constructors, drivers, and race results. The data is stored in JSON files and loaded dynamically to power the endpoints.
+This project is a RESTful API built with Node.js and Express.js that serves data about F1 circuits, constructors, drivers, and race results. The data is stored in JSON files and loaded dynamically to power the endpoints.
 
 ## Features
 
